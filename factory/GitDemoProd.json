@@ -1,0 +1,9 @@
+{
+	"name": "GitDemoProd",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b24305f2-17dd-4162-bb47-78621a734c28",
+		"tenantId": "0cc67763-9da2-4e80-87c5-f42ceb1f1cbd"
+	}
+}
