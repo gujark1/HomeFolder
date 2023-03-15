@@ -1,0 +1,24 @@
+{
+	"name": "TargetDataSet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageDevTarget",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "Azure_test",
+				"container": "kgfirstcontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
